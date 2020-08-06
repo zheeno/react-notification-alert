@@ -169,7 +169,7 @@ class NotificationAlert extends React.Component {
       }
       return React.createElement(
         Col,
-        { xs: 11, sm: 8, style: style },
+        { xs: 11, sm: 12, style: style },
         this.state["notify" + place.toUpperCase()].map((prop, key) => {
           return prop;
         })
