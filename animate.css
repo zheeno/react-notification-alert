@@ -363,3 +363,10 @@ Copyright (c) 2015 Daniel Eden
   -webkit-animation-name: fadeMini;
   animation-name: fadeMini;
 }
+
+@media screen and (min-width: 576px) {
+    *:not(.modal) .animated {
+        width: 40% !important;
+        float: right !important;
+    }
+}
